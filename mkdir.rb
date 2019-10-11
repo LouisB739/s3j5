@@ -54,7 +54,7 @@ end
 
 
 def rspec_init()
-    system("rspect init")
+    system("--rspec init")
 end
 
 
