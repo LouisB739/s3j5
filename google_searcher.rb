@@ -8,7 +8,7 @@ def check_if_user_gave_input
 
 def google()
 
-    url = "https://www.google.com/search?q=" + ARGV.join()
+    url = "https://www.google.com/search?q=" + ARGV.join(" ")
     puts url
 
     Launchy.open(url)

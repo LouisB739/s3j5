@@ -30,6 +30,7 @@ def check_if_user_gave_input
     file.puts("
 source 'https://rubygems.org' 
 ruby '2.5.1' 
+gem 'dotenv'
 gem 'rubocop', '~> 0.57.2'
 gem 'rspec'
 ")
